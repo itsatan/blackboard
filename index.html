@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>简易Canvas黑板</title>
+    </head>
+    <body>
+        <div id="container">
+            <canvas id="canvas" width="1000" height="500"></canvas>
+            <div class="options">
+                <button id="stock">画笔</button>
+                <button id="erase">橡皮擦</button>
+                <button id="clear">清屏</button>
+                <button id="save">保存画布</button>
+                <h3>当前正在使用：<span id="text"></span></h3>
+            </div>
+        </div>
+        <script type="module" src="/src/main.ts"></script>
+    </body>
+</html>

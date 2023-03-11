@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #34495e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+}
+
+.options {
+    width: 200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: #4f97d5;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+h3 {
+    color: #2ecc71;
+}
